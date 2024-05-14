@@ -1,0 +1,32 @@
+$ git config --global user.name "lee"
+
+$ git config --global user.email "thejinx@naver.com"
+
+$ git config --list
+
+ls / dir /pwd로 확인
+
+cd ..  윗폴더로 올라가기
+
+cd d: d 드라이브로 가기
+
+cd 파일명/ 그 파일로 가기
+
+git init
+
+git remote add origin (http주소)
+
+git remote -v (연결확인)
+
+git add 파일명 / staging area로 보내기
+
+git commit -m "메시지" / 커밋
+
+git push origin branch이름 / 푸쉬
+
+git pull origin branch이름
+
+푸쉬 안될경우 pull해야함, 
+$ git pull --allow-unrelated-histories origin master
+
+git pull --allow-unrelated-histories origin master
